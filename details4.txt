@@ -1,0 +1,41 @@
+data binding
+help us link any ui with actual data 
+without having call findviewbyID for new item 
+we enclose the holw layout in layout tag and in activiyty 
+we call it with it refrence 
+2.1 > suport data binfding
+if one activty is in bind wo we dont create a refrence to files included in this file
+
+<ImageView android:contentDescription="@string/origin_label"/>
+any app, you would want to describe all ImageViews, ImageButtons and 
+all Checkboxes using the contentDescription attribute.
+
+
+for landscape view 
+make a new directory called layout-land
+and copy the same layout in this folder
+
+
+MOCKub 
+model for an app used for design 
+picture or animation 
+keylines 
+specify thr size and spacing of app components in app layout 
+
+MAterial Design 
+a set of priciples for creating useful and beautiful visuals
+
+
+font family 
+groups of fonts that share similar design characterstic 
+senserif and serif 
+senserif is by default android
+sp sclae indeoendent pixels
+dp density indeoendent pixels
+sp adjest the size a/c to user choice from settings
+density is the number of pixels in the physical area of the screen 
+
+theme of app and activty is changed in manifest
+layout for tablet 
+in normal but select 
+smallest screen width  to 600

@@ -1,0 +1,3 @@
+Contract info about database
+its define table and colum in databse
+base colum class will automatically add id to entries

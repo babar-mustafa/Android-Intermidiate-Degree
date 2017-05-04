@@ -1,0 +1,43 @@
+
+
+SQL lite datasbase 
+Contract info about database
+its define table and colum in databse
+base column class will automatically add id to entries
+sql lite open helper 
+two methods 
+create upgrade
+cursior allow  you to iterate over quries in sql
+.setag its store datra but not show
+
+
+content provider
+four key app components 
+activities
+services
+content provider
+broadcast reciever
+
+content providers can write data into 
+contacts 
+documents
+calender 
+contents resolver comunicate between content provider and apps 
+its support crud 
+
+
+ist step 
+new provider class extends abstartct 
+contentprovidrs android sdk part
+register in manifest
+uri for task
+content resolver recognized different 
+
+providers
+  <provider
+            android:name="com.example.android.todolist.data.TaskContentProvider"
+			current pkg name 
+            android:authorities="com.example.android.todolist"
+			acces packgae name with class
+            android:exported="false"
+			other app can access or not/>

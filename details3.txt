@@ -1,0 +1,69 @@
+services 
+are long running background task
+
+when we load data on ui we should use loaders 
+or 
+when we upload update do this in background services
+processing
+uploading 
+dowloading
+three ways to start services
+start    > 
+schedule
+bind
+intent service run on a seprate thread 
+on handle will tell us what we have to do in background
+start and task complete its stop 
+
+system service 
+start bby nadroid syatem and its not a part of application
+pending intent 
+opens app activity
+
+job scheduler 
+compatible api 21
+to perform some schedulework
+firebasejobdispatcher
+api 9> support 
+time in seconds
+
+
+Broadcast reciever
+special intents when some thing happens an android displayed
+like download complete 
+headset plugged
+any app can recieve intents from BR ecen app is off
+static whenever the B intents occurs
+dynamic  when app is offline
+
+view group 
+for multiples view
+container for viewas
+its a base class for all layout
+
+
+constrain layout
+like relative
+alow place relative parent and each other 
+position and scaled
+allow complex layout witout nested view each other
+support 2.3
+
+gravity just for text 
+layout gravity for entire textview or image view horizontally nad vertically
+
+android:text = "afdadf";
+cant use android:text for setting fake data 
+because text define in tool library
+use
+tool:text
+
+
+for adding vector images 
+res >new > vector asstes>local file >browse
+
+The Hierarchy Viewer
+tools >android > android device monitior 
+android evice monitor window
+window > prospective window>Hierarchy View
+
